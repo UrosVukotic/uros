@@ -1,0 +1,546 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+header ul li{
+    align-items: center;
+    z-index: 100;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+header #logo{
+    width: 400px;
+}
+
+nav{
+    margin-right: 100px;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+#logo img{
+    width: 150px;
+    height: 150px;
+}
+
+#hero{
+    background: url("../img/backgroundImg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heroContent{
+    text-align: center;
+    color: white;
+    margin-bottom: 230px;
+}
+
+#heroContent h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#heroContent p{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.zuto{
+    color: #e6ba03;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    border: 2px solid #e6ba03;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 17px;
+    background: transparent;
+    color: white;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover{
+    background-color: #e6ba03;
+    border: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all ease 0.5s;
+}
+
+#oNama{
+    padding: 50px 0px;
+}
+
+#oNamaContent{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.oNamaIMG{
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#oNamaContent h2{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+    
+#oNamaContent p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+  
+#oNamaContent h2::before {
+    content: "Since 2023";
+    display: block;
+    font-size: 16px;
+    color: #e6ba03;
+    margin-bottom: 0px;
+}
+
+.btn1 {
+    background-color: #e6ba03;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    border: 2px solid #e6ba03;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+  
+  
+.listaKolona {
+    width: 58%;
+}
+  
+.listaKolona span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+  
+.lista span::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    /* background-color: #e6ba03; */
+    border: 1px solid #e6ba03;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#LokacijeSekcija h2 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+  
+.mreza {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.lokacija {
+    border: 1px solid #e6ba03;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.lokacija img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+  
+.lokacija:hover {
+    background-color: #e6ba03;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 70px;
+    align-items: center;
+}
+  
+#contact-info div {
+    text-align: center;
+}
+  
+#footer-meni {
+    text-align: center;
+}
+  
+#footer-meni a {
+    text-decoration: none;
+    color: white;
+}
+  
+#footer-meni h2 {
+    color: #e6ba03;
+}
+  
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+  
+#footer-meni {
+    text-align: center;
+}
+
+#hero1 {
+    position: relative;
+    height: 60vh;
+    background-image: url("../img/oNama.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.heroSadrzaj1 {
+    padding: 20px;
+    padding-left: 0;
+}
+  
+#hero1 h1 {
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+  
+#hero1 p {
+    font-size: 18px;
+}
+  
+.btn2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: levo 1s ease-out forwards;
+    margin-top: 10px;
+}
+  
+.btnDugme {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #e6ba03;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.galerija {
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+    gap: 15px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.galerija img{
+    width: 375px;
+    height: 250px;
+    border-radius: 20px;
+}
+  
+.kontejner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+#oNama1 {
+    margin-top: 20px;
+}
+
+#logo {
+    margin-left: 200px;
+}
+
+#naslov {
+    font-size: 75px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#naslov span {
+    color: #e6ba03;
+}
+
+.deo1 {
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    border: 5px solid black;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+.deo1 button:hover {
+    background-color: #e6ba03;
+    transition: all ease-out 0.5s;
+}
+.deo1 .radio {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.deo1 p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #e6ba03;
+    text-shadow: 1px 1px 1px black;
+}
+
+.deo1 .slika {
+    height: 150px;
+}
+
+.slika img {
+    height: 150px;
+    width: 100%;
+    opacity: 0.6;
+    position: relative;
+}
+
+.slika h2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    width: 205px;
+    height: 58px;
+    font-size: 25px;
+    margin: 0px;
+    border: 5px solid black;
+    border-radius: 15px;
+    position: relative;
+    top: -110px;
+    left: 15px;
+    opacity: 1;
+}
+
+.telo {
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+#trening1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#contact-section {
+    padding: 150px 20px;
+    text-align: center;
+}
+  
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+.social-button {
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.social-button img {
+    width: 45px;
+}
+
+#contact-form h1 {
+    color: black;
+    font-size: 60px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 10px;
+    font-size: 17px;
+    font-variant: small-caps;
+}
+  
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#contact-form button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    /* border: none; */
+    border: 2px solid #e6ba03;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    background: transparent;
+    background-color: #333;
+}
+  
+#contact-form button:hover {
+    background-color: #e6ba03;
+    border: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all ease 0.5s;
+}
+  
+#contact-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 70px;
+    align-items: center;
+}
+
+#contact-info div {
+    text-align: center;
+}
+
+#autor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    width: 1900px;
+}
+
+#autor img{
+    width: 370px;
+    height: 730px;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 0px 0px 7px #333;
+}
+
+#autor p
+{
+    width: 1000px;
+    font-size: 35px;
+}
+
+#galerija2{
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#galerija2 img{
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px #333;
+}
+
+#rssikona{
+    color: white;
+}
+
+#sitemapikona{
+    color: white;
+}
